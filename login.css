@@ -1,0 +1,326 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+body#Login{
+    background: url('') center center;
+    background-size:cover;
+}
+.loginheader{
+    text-align: center;
+}
+.loginheader{
+    margin-bottom: 50px;
+}
+.loginheader h1{
+    font-size: 50px;
+    padding: 20PX;
+    margin:10px;
+    color:white;
+    display: inline-block;
+}
+.loginheader h1:after{
+    content: '';
+    display: block;
+    height: 5px;
+    margin: 0 auto;
+    background-color:whitesmoke;
+
+}
+.loginheader p{
+    font-size: 25px;
+    margin-top: 5px;
+    color:whitesmoke;
+    display: inline-block;
+    font-weight: bold;
+}
+.loginheader p:after{
+    content: '';
+    display: block;
+    height: 2px;
+    margin: 0 auto;
+    background-color:whitesmoke;
+
+}
+.loginbody form{
+    margin: 0 auto;
+    margin-top: auto;
+    width: 500px;
+    background: rgba(0, 0,0,.75);
+    padding: 30px;
+    border: 2px solid;
+    border-color: aliceblue;
+    border-radius: 5px;
+}
+.inputcontainer {
+    margin-top: 20px;
+
+}
+.inputcontainer label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+
+}
+.inputcontainer input{
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.loginbutton{
+    margin-top: 40px;
+    text-align: center;
+}
+.loginbutton button{
+    font-size: 20px;
+    padding: 5px 12px;
+    background:white;
+    border: none;
+    border-radius: 10px;
+    color: black;
+}
+.header{
+    margin: 0%;
+    height: 40px;
+    width: 100%;    
+    background-color: rgb(172, 97, 97);
+    padding: 10px 0px;
+}
+.header a{
+    margin-left: 1100px;
+    font-size: 20px;
+    color: azure;
+    border: 2px SOLID transparent;
+    text-decoration: none;
+    padding: 2px 4px;
+}
+.header a:hover{
+    border-radius: 5PX;
+    border: 2PX solid white;
+}
+.banner{
+    background: url("images/oip1.jpg") center center;
+    background-size:cover;
+    padding: 50px;
+}
+.homepagecontainer{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.bannerheader h1{
+
+    font-size: 40px;
+    color:#f685a1;
+    line-height: 100%;
+    text-align: center;
+    display: inline-block;
+    
+}
+.bannerheader h1:after{
+    content: '';
+    display: block;
+    height: 3px;
+    margin: 0 auto;
+    background-color:#f685a1;
+
+}
+
+.bannerheader h2{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #fdbfe2;
+    line-height: 100%;
+    display: inline-block
+}
+.bannerheader h2:after{
+    content: '';
+    display: block;
+    height: 3px;
+    margin: 0 auto;
+    background-color:#feb3de;
+
+}
+.bannerheader h3{
+    font-family: Arial;
+    margin-top: 100px;
+    font-size: 25px;
+    color:aliceblue;
+}
+.bannerheader p{
+    font-family: Arial;
+    margin-top: 5px;
+    font-size: 15px;
+    color: aliceblue;
+}
+.bannerheader img{
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+#DashboardMainContainer{
+    display: flex;
+    flex-direction: row;
+}
+.dashboard_sidebar{
+    width: 20%;
+    background: #323232;
+    height: 100vh;
+}
+.dashboard_content_container{
+    width: 80%;
+    background: #f4f6f9;
+}
+.dashboard_logo{
+    color: #f685a1;
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.sidebar_user{
+    position: relative;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom:2px solid white;
+}
+.sidebar_user img{
+    width: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #f685a1;
+    margin-right: 0px;
+    vertical-align: middle;
+}
+.sidebar_user span{
+    position: relative;
+    font-size: 15px;
+    font-family: Arial;
+    text-transform: uppercase;
+    color: azure;
+    display: inline-block;
+}
+.menu_list{
+    margin-top: 20px;
+}
+.menu_list li{
+text-align:left;
+padding: 15px 15px;
+font-size: 15px;
+list-style: none;
+margin-left: -40px;
+padding-left: 0;
+text-transform: uppercase;
+}
+.menu_list li a{
+    text-decoration: none;
+    color: #ffff;
+    height: 100%;
+    display: block;
+}
+.menu_list li:hover{
+    background: #f685a1;
+    color: aliceblue;
+    font-size: 17px;
+}
+.content_topline{
+    background: grey;
+    padding: 20px;
+}
+.content_topline a{
+    font-size: 20px;
+    text-decoration: none;
+}
+#lgnbtn{
+    float: right;
+}
+.dashboard_content{
+    padding: 55px 10px 10px 10px;
+}
+.dashboard_content_main{
+    background: #ffff;
+    height: 500px;
+}
+#errormessage{
+    background: #ffff;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    padding: 12px;
+}
+.boody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.portfolio {
+    text-align: center;
+    margin: 50px;
+}
+
+.departments {
+    list-style-type: none;
+    padding: 0;
+}
+
+.departments li {
+    margin: 10px 0;
+}
+
+.teachers-list {
+    text-align: center;
+    margin: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
